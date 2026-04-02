@@ -14,4 +14,9 @@ int main() {
 		randomint[i] = 1000 + rand() % 9000;
 		cout << randomint[i] << " ";
 	}
+	// second bullet point
+	cout << endl << "Even indices:	     ";
+	for (int j = 0; j < ARRAYSIZE; j = j + 2) { // makes the even numbers appear
+		cout << randomint[j] << " ";
+	}
 }
