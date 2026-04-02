@@ -26,4 +26,9 @@ int main() {
 			cout << randomint[k] << " ";
 		}
 	}
+	// fourth bullet point
+	cout << endl << "Reversed order:      ";
+	for (int l = ARRAYSIZE - 1; l >= 0; l--) { // reverses the order of the array
+		cout << randomint[l] << " ";
+	}
 }
