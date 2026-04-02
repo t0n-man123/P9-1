@@ -31,4 +31,7 @@ int main() {
 	for (int l = ARRAYSIZE - 1; l >= 0; l--) { // reverses the order of the array
 		cout << randomint[l] << " ";
 	}
+	// fifth bullet point
+	cout << endl << "First and Last:      ";
+	cout << randomint[0] << " " << randomint[ARRAYSIZE - 1]; // gets first and last values of array
 }
